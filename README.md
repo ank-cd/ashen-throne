@@ -12,15 +12,31 @@ A small text-based RPG written in Python.
 - Python
 - console-based prototype
 
+## How to Run
+From the project root, run:
+
+```bash
+py game/main.py
+```
+
 ## Project Structure
-- `main.py` - game entry point
-- `battle.py` - combat system
-- `exploration.py` - exploration and random events
-- `entity_sheet.py` - player and enemy data
-- `attack_sets.py` - attack definitions
-- `text_*.py` - game texts and descriptions
-- `UI/` - for future development
+- `game/` - core game logic and text modules
+- `game/main.py` - game entry point
+- `game/battle.py` - combat system
+- `game/exploration.py` - exploration and random events
+- `game/entity_sheet.py` - player and enemy data
+- `game/attack_sets.py` - attack definitions
+- `game/text_*.py` - game texts and descriptions
+- `UI/` - future interface-related development
 
 ## Status
-Work in progress.
-Current focus: stable core gameplay loop and project cleanup
+Current focus:
+- stabilizing the core gameplay loop
+- improving structure for future development
+
+## Planned Improvements
+- add more event variety
+- expand boss encounters
+- add a loot system
+- improve console presentation
+- connect future UI layer
