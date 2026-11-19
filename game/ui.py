@@ -35,7 +35,7 @@ def main():
     HEIGHT = int(info.current_h * 0.75)
 
     screen = pygame.display.set_mode((WIDTH, HEIGHT)) # Fenster + Zeichenfläche erstellen
-    pygame.display.set_caption("Ashen Throne - UI Test") # Fenstertitel setzen
+    pygame.display.set_caption("Ashen Throne") # Fenstertitel setzen
 
     clock = pygame.time.Clock()
 
@@ -57,9 +57,10 @@ def main():
 
     story_texts = [
         "Welcome, exile.",
-        "The ash drifts through the ruined hall.",
-        "A distant echo moves beneath the stone.",
-        "Something is waiting in the dark."
+        "The city has burned for longer than anyone remembers, and still the ash keeps falling, patient and grey, over streets that have long since lost their names.",
+        "You were driven out of this place once, and whatever has called you back into the ruin has not bothered to explain itself to you.",
+        "Far above the scorched quarter the old castle keeps its watch like a dying crown, and somewhere beneath it, the Chained Flame turns in its sleep.",
+        "The Wardens are gone. Their order guarded the Sleeping Flame for a thousand years, and all that remains of them is a name cut into stone that no one is left to read."
     ]
 
     current_index = 0
